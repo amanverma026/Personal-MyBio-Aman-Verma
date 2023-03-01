@@ -1,0 +1,18 @@
+.bottom-p2-about{
+    padding-bottom: 40px;
+    border-bottom: 1px solid lightgray;
+}
+.top-div1-main-about{
+    padding: 10px 0px;
+}
+.top-div1-inner-about{
+    padding-top: 30px;
+}
+@media (max-width:586px) {
+    .Name-heading{
+        font-size: 60px;
+    }
+    .main-home-cont{
+        padding: 200px 20px 20px 20px;
+    }
+}
