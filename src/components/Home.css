@@ -1,63 +1,99 @@
-.cont2-p2-home{
+.cont2-p2-home {
     /* border-bottom: 1px solid rgb(93, 92, 92); */
 }
-.picture-cont{
+
+.picture-cont {
     border-radius: 50px;
     width: 100px;
     height: 100px;
 }
-.cont3-pic-home{
+
+.cont3-pic-home {
     margin: 30px 0px;
     display: flex;
     align-items: center;
 }
-.follow-cont5-home{
+
+.follow-cont5-home {
     padding: 10px 0px;
     display: flex;
     text-align: left;
+    align-items: center;
+    justify-content: flex-start;
 }
-.div-follow-cont5{
-    padding: 5px 0px ;
+
+.div-follow-cont5 {
+    padding: 10px 0px;
 
 }
-.a-div-follow-cont5{
+
+.a-div-follow-cont5 {
     color: black;
     text-decoration: none;
     padding-right: 20px;
+    background-color: lightgray;
+    padding: 10px 20px;
+    margin-right: 12px;
+    border-radius: 12px;
 }
-.a-cont4-votes{
+
+.a-div-follow-cont5:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.a-cont4-votes {
     color: rgb(82, 82, 82);
-  text-align: center;
-  text-decoration: none;
+    text-align: center;
+    text-decoration: none;
 }
-.cont4-main-votes{
+
+.cont4-main-votes {
     padding: 5px 10px;
 }
+
 @media (max-width:586px) {
-    .main-home-cont{
+    .main-home-cont {
         padding: 200px 20px 20px 20px;
     }
-    .Name-heading{
+
+    .Name-heading {
         font-size: 60px;
     }
-    .cont3-pic-home{
+
+    .cont3-pic-home {
         width: 100%;
-    display: block;
-    padding: 5px 15px;
-    box-sizing: border-box;
-       
-    }
-    .cont4-main-votes{
-        color: rgb(82, 82, 82);
-      /* text-align: center; */
-      text-decoration: none;
-      padding: 10px 0px;
-    }
-    .cont2-home{
-        padding: 20px 0px;
-    }
-    .follow-cont5-home{
-        padding: 20px 0px;
         display: block;
+        padding: 5px 15px;
+        box-sizing: border-box;
+
     }
+
+    .cont4-main-votes {
+        color: rgb(82, 82, 82);
+        /* text-align: center; */
+        text-decoration: none;
+        padding: 10px 0px;
+    }
+
+    .cont2-home {
+        padding: 20px 0px;
+    }
+
+    .follow-cont5-home {
+        padding: 20px 0px;
+        /* display: block; */
+    }
+
+    .a-div-follow-cont5 {
+        color: black;
+        text-decoration: none;
+        padding-right: 20px;
+        background-color: lightgray;
+        padding: 10px 20px;
+        /* margin-right: 12px; */
+        border-radius: 12px;
+        font-size: 26px;
+        margin-right: 15px;
+    }
+
 }
